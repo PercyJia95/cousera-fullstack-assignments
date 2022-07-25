@@ -1,0 +1,32 @@
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+@media (max-width:767px) {
+    #navbar-collapse-data{
+        background-color: aqua;
+    }
+}
+
+.main-content {
+    background-color: rgb(208, 202, 202);
+    width: 90%;
+    margin: auto;
+}
+
+.small-section{
+    width: 70%;
+    margin: auto;
+    height: 700px;
+    overflow: hidden;
+} 
